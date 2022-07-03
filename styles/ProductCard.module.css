@@ -1,0 +1,150 @@
+.container {
+
+  display: flex;
+
+  
+  width: 80vh;
+  
+  background: #fff;
+
+}
+
+.container .imgBx {
+position: relative;  
+display: flex;
+  
+  
+  
+  background: #f3eded;
+  transition: .3s linear;
+  
+}
+
+.container .imgBx:before {
+  content: 'SAVAGE-DENIMS';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: rgb(190, 184, 184);
+  opacity: 0.2;
+  font-size: 4em;
+  font-weight: 700;
+  
+}
+
+.container .imgBx img {
+  position: relative;
+  display: flex;
+  width:300px;
+  transform: rotate(-40deg);
+  transition: .10s linear;
+}
+
+
+
+ .title .content h2{
+margin-bottom: 100%;
+padding-left: 10%;
+  
+  justify-content: space-between;
+  font-size: 2em;
+  color: rgb(217, 39, 39);
+}
+
+
+
+
+.container .content h3{
+  margin-top:30px;
+
+  padding-left: 10%;
+  padding-bottom:50px ;
+  font-size: 2em;
+  color: #111010;
+  
+}
+ .content .button {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding-left: 10%;
+  margin-left: 25px;
+  font-size: 19px;
+  letter-spacing: 2px;
+  font-weight: 300px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  
+  
+  margin-top: 30px;
+}
+.productsize {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  margin: right 40px;
+  display:flex;
+  position:relative;
+}
+.productsize p{
+  display: flex;
+  padding-right: 20%;
+  
+  margin-top:1%;
+
+}
+.productsize input{
+  display: flex;
+  position: relative;
+  size: 50px;
+  justify-content: space-between;
+}
+
+
+.productsize input label{
+
+ 
+  justify-content: space-between;
+
+  
+  
+}
+
+
+.productsize input .check::after{
+  
+box-sizing: 20px;
+  border: 2px solid #000;
+  position: relative;
+  display: flex;
+  
+}
+
+/* responsive */
+@media (max-width: 1080px) {
+  .container {
+      height: auto;
+  }
+  .container .imgBx {
+      padding: 40px;
+      box-sizing: border-box;
+      width: 100% !important;
+      height: auto;
+      text-align: center;
+      overflow: hidden;
+  }
+  .container .imgBx img {
+      left: initial;
+      max-width: 100%;
+      transform: rotate(0deg);
+  }
+  .details {
+      width: 100% !important;
+      height: auto;
+      padding: 20px;
+  }
+  .container .details p {
+      margin-left: 0;
+      max-width: 100%;
+  }
+}
+

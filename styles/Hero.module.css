@@ -1,0 +1,55 @@
+.title {
+  font-size: 6rem;
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 24px 0 64px;
+}
+
+.title > span {
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: -20px;
+}
+
+.jeans{
+  background: linear-gradient(90deg, #857b7b, #000000);
+  font-size: 3rem;
+}
+
+.mark {
+  padding-top: 4%;
+  font-size: 3.4rem;
+  background: linear-gradient(90deg, rgb(15, 13, 13), rgb(188, 180, 180));
+ 
+}
+
+
+
+.jeans,
+.mark{
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.buttons {
+  max-width: 26rem;
+  margin: 0 auto 64px;
+}
+
+.button {
+  height: 50px;
+  padding: 0px 25px;
+  min-width: 200px;
+}
+
+.subtitle {
+  color: var(--secondary);
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  margin: 8px 0 64px;
+}

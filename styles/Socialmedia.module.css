@@ -1,0 +1,27 @@
+.container {
+          height: 50px;
+          padding: 0px 50px;
+          background-color: #fefbfb;
+          display:flex;
+          align-items:flex-end;
+          position: sticky;
+          top: 0;
+          margin-left: 800px;
+          margin-top: 20px;
+         
+        }
+        .facebook {
+          
+          margin-right: 20px;
+        
+        }
+        
+        .instagram{
+          justify-content: flex-end;
+          margin-right: 20px;
+           
+        }
+        
+        .tiktok{
+          display: flex;
+        }
